@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <!--Linking Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <head>  
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact</title>
+      <!--Linking Bootstrap-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+      <!--Linking My Css-->
+      <link rel="Mystylesheet" href="style.css">
+      <link rel="myJava" href="contact.js"></link>
+      <script src="/bower_components/webcomponents/webcomponentsjs/webcomponents-lite-min.js">
+      </script>
+  </head>
+  <body> 
     <!--Linking Navbar-->
     <nav class="navbar navbar-light bg-light static-top">
         <ul class="navbar-brand">Allie Lewis</a>
-            <a style=color:#ebc4c4; href="index.html">About me</a>
+            <a style=color:#ebc4c4; href="index.html">About</a>
             <a style=color:#ebc4c4; href="portfolio.html">Portfolio</a> 
             <a style=color:#ebc4c4; href="contact.html">Contact</a>
         </nav>
-      
-</head>
-<body>
-  <!--Added a Backround Image-->
+  <!--Added a back-round Image-->
   <style>
     div {
       background-image: url('https://www.desktopbackground.org/download/800x600/2013/02/14/530456_casadeco-douce-nuit-wallpapers-plain-light-pink_1000x1000_h.jpg');
     }
     </style>
     <!--Contact sheet-->
-  <div class=".container"class="text-center";>
-    <div style=text-align:center;>
+  <div class="container"class="text-center";>
+    <div style= text-align:center>
       <h2>Get In Touch</h2>
       <p>  Feel free to leave a message down below :</p>
     </div>
     <section class=".row" >
       <div class="column">
         <!--Added an image-->
-        <img alt="Contact Icons" class="rounded mx-auto d-block" src="Icons.jpg" style="width:25%">
+        <img alt="Contact Icons" class="rounded mx-auto d-block" src="Assets/Icons.jpg" style="width:25%">
       </div>
       <nav class="text-center"class="rounded mx-auto d-block" class="text-center"class="column">
-        <form class="rounded mx-auto d-block" action="/action_page.php">
+        <form class="rounded mx-auto d-block" action="">
           <label class="rounded mx-auto d-block" for="fname">First Name</label>
           <input  type="text" id="fname" class="rounded mx-auto d-block" name="firstname" placeholder="Your name..">
           <label class="rounded mx-auto d-block" for="lname">Last Name</label>
@@ -42,19 +47,20 @@
           </select>
           <label class="rounded mx-auto d-block" for="subject">Subject</label>
           <textarea class="rounded mx-auto d-block" class="rounded mx-auto d-block" id="subject" name="subject" placeholder="Write something.."style="height:170px";></textarea>
-          <input class="rounded mx-auto d-block" type="submit" value="Submit">
-          <form action="mailto:someone@example.com" method="post" enctype="text/plain"></form>
+          <input class="rounded mx-auto d-block" type="submit">
+          <form action="mailto:allielewis07@gmail.com.com" method="post" enctype="text/plain"></form>
       </nav>
     </section>
   </div>
   <!--Footer-->
   <footer
- 
-  class="col-xlg-12 bg-light border-info border-1 text-center text-bottom text-muted pt-5">
-           <a style=color:black; href="https://www.instagram.com/alliexlewis/"><link rel="import" class="rounded mx-auto d-block" href="component.html">@Instagram</text:Instagram></a>
-           <a style=color:black; href="https://www.linkedin.com/in/allie-lewis-a9bbb91b2/"><link rel="import" class="rounded mx-auto d-block" href="component.html">@Linkedin</text:Instagram></a>
-           <a style=color:grey; "Allie Lewis ©" class="rounded mx-auto d-block"></a>
+  
+  id="footer2" class="col-xlg-12 bg-light border-info border-1 text-center text-bottom text-muted pt-5">
+        <a style=color:black; href="https://www.instagram.com/alliexlewis/"><link rel="import" class="rounded mx-auto d-block" href="component.html">@Instagram</text:Instagram></a>
+        <a style=color:black; href="https://www.linkedin.com/in/allie-lewis-a9bbb91b2/"><link rel="import" class="rounded mx-auto d-block" href="component.html">@Linkedin</text:Linkedin></a>
+        <a style=color:black; href="https://github.com/allielewis07"><link rel="import" class="rounded mx-auto d-block" href="component.html">@Github</text:Instagram></a>
+        <a style=color:grey; "Allie Lewis ©" class="rounded mx-auto d-block"></a>
             Allie lewis © 2020
-           </footer>
+        </footer>
 </body>
 </html>
