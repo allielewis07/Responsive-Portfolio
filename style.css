@@ -31,4 +31,8 @@ footer2 {
     color: white;
     text-align: center;
 }
-
+.navbar {
+    position:absolute;
+    right:0;
+    left:0;
+    }
