@@ -1,4 +1,4 @@
-** ** Responsive-Portfolio ** **
+## Responsive-Portfolio-
 ## Description
  I created a Responsive Portfolio to demonstrate my work throughout developing. This site you'll be able to go to an About me, Contact sheet, and a portfolio page with links to sites i've created. On this same page there is a link where you can download my resume.
 Navigate through the README Using the Table of Contents : 
