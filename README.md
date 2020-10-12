@@ -22,8 +22,6 @@ No Other Contributers
 No
 ## Questions
 [Link to Creator Github](https://github.com/Allielewis07)
-![Image of Game page](Assets/READEME-Example.png)
-
  Project examples:
  ![Image of Page1](https://raw.githubusercontent.com/allielewis07/Responsive-Portfolio/dc9bd36e3f93ebaf1f9ed100f4a7b54fa27ba3bd/Assets/page1.jpg)
  ![Image of Page2](https://raw.githubusercontent.com/allielewis07/Responsive-Portfolio/dc9bd36e3f93ebaf1f9ed100f4a7b54fa27ba3bd/Assets/Screen%20Shot%202020-09-30%20at%2010.41.11%20PM.jpg)
