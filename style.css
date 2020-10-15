@@ -1,7 +1,7 @@
 body {
     background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Minimalist-Crumpled-Paper-Simple-Background-Image.jpg");
-    height: 100;
-    background-position: center;
+    height:100%;
+    background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
 }
