@@ -1,0 +1,86 @@
+.body1 {
+    background-image: url("/Assets/homePage.png");
+    height:100%;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: url("/Assets/linesContact.png");
+    height:100%;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav {
+    background-color: white;
+    padding-right: 50px;
+}
+
+#AboutMe{
+    width: 250x;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    widows: 50px;
+    border-style:solid;
+    border-color:orange;
+    
+    
+}
+.linePhoto{
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: orange;
+    text-align: center;
+}
+
+#footer2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: orange;
+    text-align: center;
+}
+.mainContact {
+    background-image: url('/Assets/linesContact.png');
+    height: 100%;
+}
+
+#bio {
+    border-radius: 100%;
+    color:black;
+    /* text-align: center; */
+    padding-bottom:auto;
+    border-radius:20px;
+    border-style: solid;
+    border-color: orange;
+    background-color: white;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+.bio2 {
+    margin-left: 15px;
+}
+
+.ABM {
+
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: forestgreen;
+}
