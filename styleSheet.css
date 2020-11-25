@@ -5,13 +5,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.body2{
-    background-image: url("/Assets/linesContact.png");
-    height:100%;
-    background-position: absolute;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .nav {
     background-color: white;
     padding-right: 50px;
