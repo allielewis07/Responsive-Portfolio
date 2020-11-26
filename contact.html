@@ -52,18 +52,20 @@
         <img alt="Contact Icons" class="rounded mx-auto d-block" src="Assets/Icons.jpg" style="width:25%">
       </div>
       <div class="text-center" class="rounded mx-auto d-block" class="text-center" class="column">
-        <form class="rounded mx-auto d-block" action="">
-          <label class="rounded mx-auto d-block" for="fname">First Name</label>
-          <input type="text" id="fname" class="rounded mx-auto d-block" name="firstname" placeholder="Your name..">
-          <label class="rounded mx-auto d-block" for="lname">Last Name</label>
-          <input class="rounded mx-auto d-block" type="text" id="lname" name="lastname" placeholder="Your last name..">
-          </select>
-          <label class="rounded mx-auto d-block" for="subject">Subject</label>
+        <form class="rounded mx-auto d-block" action="https://formspree.io/f/xjvpeyep" method="POST">
+          <label class="rounded mx-auto d-block">First And Last Name</label>
+          <input type="text" id="fname" class="rounded mx-auto d-block" id="firstName" placeholder="Your Name">
+          <label class="rounded mx-auto d-block" for="lname">email</label>
+          <input class="rounded mx-auto d-block" id="email" type="text" placeholder="Email"></select>
+          <label class="rounded mx-auto d-block" id="subject">Subject</label>
           <textarea class="rounded mx-auto d-block" class="rounded mx-auto d-block" id="subject" name="subject"
             placeholder="Write something.." style="height:170px" ;></textarea>
           <input class="rounded mx-auto d-block" type="submit">
-          <form action="mailto:allielewis07@gmail.com" method="post" enctype="text/plain"></form>
-      </div>
+        </form>
+        <!-- action with formspree-->
+        <div class="col-md-6 rounded d-block">
+          <form action="https://formspree.io/f/xeqpovjl" method="POST">
+        </div>
     </section>
   </div>
   </div>
@@ -74,5 +76,6 @@
     </div>
   </footer>
 </body>
+<script src="contactSheet.js"></script>
 
 </html>

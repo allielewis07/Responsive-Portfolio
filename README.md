@@ -15,7 +15,7 @@ Navigate through the README Using the Table of Contents :
 ## Usage
 Homework
 ## License
-![badmath](https://img.shields.io/badge/license-undefined-green)
+![badmath](https://img.shields.io/badge/license-Mit-green)
 ## Contributors
 No Other Contributers
 ## Tests
@@ -23,6 +23,6 @@ No
 ## Questions
 [Link to Creator Github](https://github.com/Allielewis07)
  Project examples:
- ![Image of Page1](https://raw.githubusercontent.com/allielewis07/Responsive-Portfolio/dc9bd36e3f93ebaf1f9ed100f4a7b54fa27ba3bd/Assets/page1.jpg)
- ![Image of Page2](https://raw.githubusercontent.com/allielewis07/Responsive-Portfolio/dc9bd36e3f93ebaf1f9ed100f4a7b54fa27ba3bd/Assets/Screen%20Shot%202020-09-30%20at%2010.41.11%20PM.jpg)
- ![Image of Home page](https://raw.githubusercontent.com/allielewis07/Responsive-Portfolio/dc9bd36e3f93ebaf1f9ed100f4a7b54fa27ba3bd/Assets/Page2.jpg)
+ ![Image of Page1](Assets/homeScreen.png)
+ ![Image of Page2](Assets/contactPage.png)
+ ![Image of Home page](Assets/portfolioScreen.png)

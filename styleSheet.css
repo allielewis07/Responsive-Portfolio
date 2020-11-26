@@ -59,8 +59,14 @@ footer {
     background-color: white;
     color: green;
     font-family: 'Courier New', Courier, monospace;
+    margin-right: 15px;
+    margin-left: 15px ;
     
 
+}
+.bio2{
+    text-align: center;
+    margin-right: 15px;
 }
 
 .ABM {
